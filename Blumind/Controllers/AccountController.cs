@@ -449,7 +449,7 @@ namespace Blumind.Controllers
             {
                 return Redirect(returnUrl);
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Categories");
         }
 
         internal class ChallengeResult : HttpUnauthorizedResult

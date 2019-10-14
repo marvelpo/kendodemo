@@ -11,6 +11,7 @@ namespace Blumind.Models
         public string Name { get; set; }
         public DateTime ValidFrom { get; set; }
         public double Price { get; set; }
+        public int CategoryID { get; set; }
         public virtual Category Category { get; set; }
     }
 }
